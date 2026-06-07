@@ -1,14 +1,14 @@
-# 📚 Pustaka Digital - Toko Buku Online
+ Pustaka Digital - Toko Buku Online
 
 Website toko buku online sederhana yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini memiliki fitur tampilan katalog buku, testimoni pelanggan, tombol pembelian melalui WhatsApp, dan desain responsif.
 
-## 🔗 Link Website
+🔗 Link Website
 
 Website dapat diakses melalui:
 
 https://melkinuwa.github.io/buku/
 
-## 🚀 Teknologi yang Digunakan
+ Teknologi yang Digunakan
 
 * HTML5
 * CSS3
@@ -16,7 +16,7 @@ https://melkinuwa.github.io/buku/
 * Visual Studio Code
 * GitHub & GitHub Pages
 
-## 📁 Fitur Website
+Fitur Website
 
 * Navbar modern
 * Hero section
