@@ -1,32 +1,27 @@
-# 📚 Aplikasi Manajemen Buku
+# 📚 Pustaka Digital - Toko Buku Online
 
-Aplikasi web berbasis **CodeIgniter 3 (CI3)** untuk mengelola data buku, termasuk proses input, edit, hapus, dan pencarian.  
-Aplikasi ini dibuat untuk kebutuhan pembelajaran dan pengembangan sistem informasi perpustakaan atau manajemen koleksi buku secara sederhana.
+Website toko buku online sederhana yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini memiliki fitur tampilan katalog buku, testimoni pelanggan, tombol pembelian melalui WhatsApp, dan desain responsif.
 
-Proyek ini dikembangkan menggunakan **Visual Studio Code** sebagai editor, dijalankan di **XAMPP**, dengan tampilan antarmuka menggunakan **AdminLTE**.
+## 🔗 Link Website
 
----
+Website dapat diakses melalui:
 
-## 🔗 Akses Lokal
-
-- **Aplikasi Web:** [http://localhost/tugasmelki](http://localhost:8080/tugasmelki)  
-- **phpMyAdmin:** [http://localhost:8080/phpmyadmin/index.php?route=/database/structure&db=buku)
-
----
+https://melkinuwa.github.io/buku/
 
 ## 🚀 Teknologi yang Digunakan
 
-| Teknologi       | Fungsi                                           |
-|------------------|--------------------------------------------------|
-| **Visual Studio Code** | Text editor utama selama pengembangan |
-| **XAMPP**              | Web server lokal (Apache + MySQL)       |
-| **PHP 7.x**             | Bahasa pemrograman backend              |
-| **CodeIgniter 3**       | Framework MVC berbasis PHP              |
-| **AdminLTE**            | Template UI berbasis Bootstrap          |
-| **MySQL**               | Database untuk menyimpan data buku      |
-| **Git & GitHub**        | Version control dan kolaborasi proyek   |
+* HTML5
+* CSS3
+* JavaScript
+* Visual Studio Code
+* GitHub & GitHub Pages
 
----
+## 📁 Fitur Website
 
-## 📁 Struktur Proyek
-
+* Navbar modern
+* Hero section
+* Tentang Kami
+* Katalog buku
+* Tombol beli via WhatsApp
+* Keranjang sederhana
+* Testimoni pelanggan
