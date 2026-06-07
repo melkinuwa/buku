@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pustaka Digital | Toko Buku Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <a href="#" class="logo"><i class="fas fa-book-open"></i> PustakaDigital</a>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#katalog">Katalog</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="https://wa.me/628123456789" target="_blank" class="contact-wa">Hubungi WA</a></li>
+            </ul>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (Tampilan Bersih & Luas) -->
+    <header id="beranda" class="hero-wide">
+        <div class="container hero-content text-center">
+            <div class="hero-text mx-auto">
+                <span class="badge">Edisi Terbatas 2026</span>
+                <h1>Temukan Inspirasi di Setiap Halaman</h1>
+                <p>Jelajahi ribuan judul buku dari penulis dunia. Pengalaman membaca terbaik dimulai dari sini.</p>
+                <!-- Tulisan Katalog & Testimoni telah dihilangkan dari sini -->
+            </div>
+        </div>
+    </header>
+
+    <!-- TENTANG KAMI SECTION -->
+    <section id="tentang" class="tentang-kami container">
+        <div class="about-flex">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=80&w=600" alt="Toko Buku">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">Tentang Pustaka Digital</h2>
+                <p>Pustaka Digital berdiri sejak tahun 2015 dengan misi sederhana: <strong>Mendekatkan buku ke tangan pembaca.</strong> Kami percaya bahwa setiap buku memiliki pembacanya sendiri, dan setiap pembaca berhak mendapatkan akses ke literatur berkualitas tinggi dengan harga terjangkau.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>100% Buku Original</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-truck"></i>
+                        <span>Pengiriman Seluruh Indonesia</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-tag"></i>
+                        <span>Harga Bersaing & Diskon Setiap Hari</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KATALOG SECTION -->
+    <section id="katalog" class="katalog container">
+        <div class="section-header">
+            <h2 class="section-title">Katalog Koleksi</h2>
+            <p class="book-stat">Menampilkan <strong>124</strong> Judul Buku</p>
+        </div>
+
+        <div class="book-grid">
+            <div class="book-card">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=400" alt="Buku">
+                </div>
+                <div class="card-body">
+                    <small>FIKSI</small>
+                    <h3>Mengejar Matahari</h3>
+                    <p class="price">Rp 85.000</p>
+                    <div class="action-buttons">
+                        <a href="https://wa.me/628123456789?text=Halo, saya mau beli buku Mengejar Matahari" class="btn-buy-now">BELI</a>
+                        <button onclick="addToCart()" class="btn-add-cart">Tambahkan Keranjang</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Duplikasi item buku lainnya sesuai kebutuhan -->
+        </div>
+    </section>
+
+    <!-- TESTIMONI SECTION -->
+    <section id="testimoni" class="testimoni">
+        <div class="container text-center">
+            <h2 class="section-title">Testimoni Pembaca</h2>
+            <div class="testi-container">
+                <div class="testi-card">
+                    <p>"Buku original dan sampai dalam 2 hari! Adminnya sangat ramah."</p>
+                    <strong>- Andi Pratama</strong>
+                </div>
+            </div>
+            <br>
+            <a href="mailto:admin@pustakadigital.com?subject=Testimoni Pelanggan" class="btn-email">
+                <i class="fas fa-envelope"></i> Kirim Testimoni via Email
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pustaka Digital. WhatsApp: +62 812-3456-789</p>
+    </footer>
+
+    <script>
+        let count = 0;
+        function addToCart() {
+            count++;
+            document.getElementById('cart-count').innerText = count;
+        }
+    </script>
+</body>
+</html>
